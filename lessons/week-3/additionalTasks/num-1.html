@@ -1,0 +1,44 @@
+1 <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script src="num-1.js"></script>
+</body>
+</html>
+
+/*
+Представьте, что вы разрабатываете интернет-магазин по доставке еды. Вам поставили задачу подсчета итоговой суммы всех товаров в корзине.
+
+Вам необходимо создать функцию getTotalPriceOfShoppingBag(), которая будет принимать в себя 1 параметр shoppingBag - массив продуктов в корзине, состоящий из объектов, в каждом из которых хранится информация о названии продукта (product) и о количестве продукта в корзине (quantity).
+
+Также у интернет-магазина есть глобальный объект, в котором хранится вся нужная информация о каждой единице продукта:
+
+const groceries = {
+"Orange Juice": {
+price : 1.5,
+discount: 10,
+},
+"Chocolate": {
+price : 2,
+discount : 0,
+},
+// more items...
+}
+Функция getTotalPriceOfShoppingBag() должна возвращать общую стоимость всех товаров в корзине с учетом скидок и с учетом указанных клиентом количеством продуктов. Итоговое значение должно быть округлено до сотых. Это можно сделать с помощью toFixed() (ссылка)
+
+Посмотрите на возможно возвращаемое значение функции getTotalPriceOfShoppingBag():
+
+const shoppingBag = [
+{ product: 'Chocolate', quantity: 3 },
+{ product: 'Orange Juice', quantity: 23 },
+]
+const totalPrice = getTotalPriceOfShoppingBag(shoppingBag);
+console.log('totalPrice', totalPrice); // Возвращает 37.05
+
+*/
